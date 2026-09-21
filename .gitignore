@@ -30,3 +30,5 @@ __pycache__/
 
 # Large groundwater raw datasets
 backend/data/raw/*.csv
+# Generated feature datasets
+backend/data/processed/*_features.csv
