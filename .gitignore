@@ -32,3 +32,4 @@ __pycache__/
 backend/data/raw/*.csv
 # Generated feature datasets
 backend/data/processed/*_features.csv
+backend/data/processed/*.csv
