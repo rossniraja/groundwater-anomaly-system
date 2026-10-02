@@ -44,7 +44,7 @@
       <p align="center"><b>Stations</b> — interactive map and station list with status badges</p>
     </td>
     <td width="50%">
-      <img src="docs/screenshots/anomalies.png" alt="Anomaly detection page" />
+      <img src="docs/screenshots/anomolies.png" alt="Anomaly detection page" />
       <p align="center"><b>Anomalies</b> — Watch / Warning / Critical counts with per-station scores</p>
     </td>
   </tr>
@@ -233,4 +233,3 @@ If you find this project useful, consider giving it a ⭐ on [GitHub](https://gi
 
 <p align="center">
   <sub>NIVORA / 2026 — Groundwater Intelligence Platform</sub>
-</p>
