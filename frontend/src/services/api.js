@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-baseURL: "https://groundwater-anomaly-system.onrender.com",
+  baseURL: "https://groundwater-anomaly-system.onrender.com",
 });
 
 export const getOverview = async () => {
@@ -28,6 +28,7 @@ export const getAlerts = async () => {
   const response = await API.get("/alerts");
   return response.data;
 };
+
 export const getStationById = async (stationCode) => {
   const response = await API.get(`/stations/${stationCode}`);
   return response.data;
