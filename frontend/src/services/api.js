@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+baseURL: "https://groundwater-anomaly-system.onrender.com",
 });
 
 export const getOverview = async () => {
